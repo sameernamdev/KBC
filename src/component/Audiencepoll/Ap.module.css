@@ -1,0 +1,26 @@
+.box{
+    width: 80%;
+    height: 80%;
+    /* background-color: yellow; */
+    background-image: url(https://i.stack.imgur.com/3rQPp.png);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items:end;
+    padding-left: 20px;
+    opacity: 0.8;
+    overflow: hidden;
+}
+.innerbox{
+    width: 60px;
+    /* height: 50px; */
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    
+}
+h3{
+    position: fixed;
+}
